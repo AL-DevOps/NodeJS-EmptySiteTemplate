@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('chekout code') {
           steps {
-            git(url: 'git@github.com:lidorg-dev/NodeJS-EmptySiteTemplate.git', branch: 'master', credentialsId: 'github')
+            git(url: 'git@github.com:AL-DevOps/NodeJS-EmptySiteTemplate.git', branch: 'master', credentialsId: 'github')
           }
         }
 
